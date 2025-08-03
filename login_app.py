@@ -3,11 +3,11 @@
 # streamlit run login_app.py [ARGUMENTS]
 
 # ref
-# [Streamlit Authenticator を使ってログイン画面を用意 \#Python \- Qiita](https://qiita.com/bassan/items/ed6d821e5ef680a20872)
-# ヘッダ部分の不要なボタンを消す。
-# [StreamlitのスタイリングTips \#Python \- Qiita](https://qiita.com/papasim824/items/af2d18f3802e632ffa80)
-# 複数ページ
-# [Streamlitで認証機能付きマルチページWebアプリを作成する方法 \#Webアプリケーション \- Qiita](https://qiita.com/CodeTea_Ping999/items/bb77b5c20de18f4d7c26)
+# [Streamlit Authenticator を使ってログイン画面を用意 \#Python \- Qiita](https://qiita.com/bassan/items/ed6d821e5ef680a20872) # xline
+# ヘッダ部分の不要なボタンを消す。 # xline
+# [StreamlitのスタイリングTips \#Python \- Qiita](https://qiita.com/papasim824/items/af2d18f3802e632ffa80) # xline
+# 複数ページ # xline
+# [Streamlitで認証機能付きマルチページWebアプリを作成する方法 \#Webアプリケーション \- Qiita](https://qiita.com/CodeTea_Ping999/items/bb77b5c20de18f4d7c26) # xline
 
 # ~/.streamlit/config.toml,
 # [browser]
@@ -15,7 +15,7 @@
 
 # access
 # Local URL: http://localhost:8501
-# Network URL: http://172.17.12.213:8501
+# Network URL: http://172.17.12.213:8501 # xline
 
 import streamlit as st
 import streamlit_authenticator as stauth

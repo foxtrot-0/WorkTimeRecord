@@ -25,8 +25,6 @@ users_dict = {}
 for user in users:
     print("pass:" + user["password"])
     #user["password"] = stauth.Hasher([user["password"]]).generate()[0]
-    #user["password"] = Hasher(['muro66kinmu']).generate()[0]
-    #user["password"] = stauth.Hasher('muro66kinmu').generate()[0]
     user["password"] = stauth.Hasher.hash(user["password"])
     tmp_dict = {
         "name": user["name"],
